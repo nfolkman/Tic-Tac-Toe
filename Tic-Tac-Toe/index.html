@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Tic-Tac-Toe</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<!-- Google Font Links -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<h1 id="title">Tic-Tac-Toe</h1>
+		<section class="display">
+			Current Turn: <b>Player <span class="display-player playerX">X</span></b>
+	  </section>
+		<section class="container">
+
+			<section class="playArea">
+
+				<div id="block0" class="block"></div>
+				<div id="block1" class="block"></div>
+				<div id="block2" class="block"></div>
+				<div id="block3" class="block"></div>
+				<div id="block4" class="block"></div>
+				<div id="block5" class="block"></div>
+				<div id="block6" class="block"></div>
+				<div id="block7" class="block"></div>
+				<div id="block8" class="block"></div>
+
+			</section>
+
+			<h2 id="winner"></h2>
+			<button id="resetButton">Reset Board</button>
+
+		</section>
+
+		<section class="display announcer hide"></section>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
